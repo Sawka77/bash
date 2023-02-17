@@ -1,0 +1,12 @@
+{
+	"person_name": "Sasha",
+	"person_age": 25,
+	"person_devices": {
+				"device_1": "iPhone 13 Pro Max",
+				"device_2": "Samsung A52"
+
+	}
+
+
+
+/usr/bin/bash: line 1: wq: command not found

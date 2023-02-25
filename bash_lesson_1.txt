@@ -1,21 +1,21 @@
-1) Посмотреть где я - 		                                  pwd
-2) Создать папку - 		                                      mkdir hw_1
-3) Зайти в папку - 		                                      cd hw_1
-4) Создать 3 папки - 		                                    mkdir hw1 hw2 hw3
-5) Зайти в любоую папку - 	                                cd hw1
-6) Создать 5 файлов (3 txt, 2 json) - 	                    touch 1.txt 2.txt 3.txt 4.json 5.json
-7) Создать 3 папки -		                                    mkdir hw1_1 hw1_2 hw1_3
-8. Вывести список содержимого папки - 	                    ls -la
-9) + Открыть любой txt файл - 	                            cat > 1.txt (vim 1.txt)
-10) + написать туда что-нибудь, любой текст. -              .... Hello World!
-11) + сохранить и выйти. - 	                                ESC/:wq
-12) Выйти из папки на уровень выше -	                      cd ..
-—
-13) переместить любые 2 файла, которые вы создали, в любую другую папку. -        mv hw1/1.txt hw2/1.txt mv hw1/4.json hw2/4.json	
-14) скопировать любые 2 файла, которые вы создали, в любую другую папку. -        cp hw1/1.txt hw2/1.txt cp hw1/5.json hw2/5.json
-15) Найти файл по имени -  	                                find . -name 1.txt
-16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. - 			tail -f 1.txt
-17) вывести несколько первых строк из текстового файла - 	                                    head -2 1.txt
-18) вывести несколько последних строк из текстового файла - 	                                tail -1 1.txt
-19) просмотреть содержимое длинного файла (команда less) изучите как она работает. - 				  less 1.txt
-20) вывести дату и время - 	                                                                  date "+%D %T"
+pwd
+mkdir hw_1
+cd hw_1
+mkdir hw1 hw2 hw3
+cd hw1
+touch 1.txt 2.txt 3.txt 4.json 5.json
+mkdir hw1_1 hw1_2 hw1_3
+ls -la
+cat > 1.txt (vim 1.txt)
+.... Hello World!
+ESC/:wq
+cd ..
+
+mv hw1/1.txt hw2/1.txt mv hw1/4.json hw2/4.json	
+cp hw1/1.txt hw2/1.txt cp hw1/5.json hw2/5.json
+find . -name 1.txt
+tail -f 1.txt
+head -2 1.txt
+tail -1 1.txt
+less 1.txt
+date "+%D %T"
